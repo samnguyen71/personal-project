@@ -45,8 +45,8 @@ const Aside = ({toggled, handleToggleSidebar }) => {
           
         <SidebarContent>
           <Menu>
-            <MenuItem>Home
-            <Link to="/home" />
+            <MenuItem>Intro
+            <Link to="/intro" />
             </MenuItem>
             {/* Graph */}
           
@@ -90,7 +90,7 @@ const Aside = ({toggled, handleToggleSidebar }) => {
       </ProSidebar>
 
       <Routes>
-        <Route exact path="/home" element={<Home />} />
+        <Route exact path="/intro" element={<Home />} />
         <Route path="/fib" element={<Fib />} />
         <Route path="/mergesort" element={<MergesortVisualizer />} />
         <Route path="/quicksort" element={<QuicksortVisualizer />} />
